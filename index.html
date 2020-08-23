@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sudoku Solver</title>
+	<link rel="icon" href="sudoku_icon.png" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="basicStyling.css"/>
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<!-- End of head-->
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">Sudoku Solver</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li id="clearBtn"><a href="#">Clear</a></li>
+					<li id="solveBtn"><a href="#">Solve!</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h3>Sudoku Solver (by Hung Le Ba) (<a href = "https://github.com/hungleba">GitHub</a>)</h3>
+		<p>Sudoku is my favourite kind of puzzle, therefore, it inspired me to build this website and to get
+		myself familiar to new teck-stack such as JS, Jquery, Bootstrap</p>
+		<p>Also, I got the chance to apply recursive backtracking algorithm which I've just learned in class</p>
+		<p>You can contact me at <a href="mailto: hungleba@email.arizona.edu"> my email</a>. Enjoy!</p>
+	</div>
+	<div class="container-fluid">
+		<!-- Insert sudoku table here-->
+		<table id="grid">
+		</table>
+		<div id="solvingStatus">
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="board.js"></script>
+</html>
