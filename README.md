@@ -14,6 +14,7 @@ The algorithm will go over all cells in a row from left to right. It then try to
 ![row](https://user-images.githubusercontent.com/51266998/91126414-c2ec5480-e658-11ea-8cad-560049308153.png)
 When finishing a row, the program moves on to the next row and repeat until it reaches beyond the last grid's row.
 ![sudoku_board](https://user-images.githubusercontent.com/51266998/91126553-18c0fc80-e659-11ea-9148-a693b934066d.JPG)
+
 However, in some cases when the input sudoku is invalid (not a sudoku puzzle), then it will notify the user that the input sudoku is unsolvable. In this case, the user can either modify numbers or reset to a new sudoku board.
 
 # Feature
